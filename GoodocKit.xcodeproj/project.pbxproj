@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF8F3BD81E517B6F00DC24DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F3BD71E517B6F00DC24DB /* AppDelegate.swift */; };
+		EF8F3BDA1E517B6F00DC24DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F3BD91E517B6F00DC24DB /* ViewController.swift */; };
+		EF8F3BDD1E517B6F00DC24DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8F3BDB1E517B6F00DC24DB /* Main.storyboard */; };
+		EF8F3BDF1E517B6F00DC24DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8F3BDE1E517B6F00DC24DB /* Assets.xcassets */; };
+		EF8F3BE21E517B6F00DC24DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8F3BE01E517B6F00DC24DB /* LaunchScreen.storyboard */; };
+		EF8F3BED1E517B6F00DC24DB /* GoodocKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F3BEC1E517B6F00DC24DB /* GoodocKitTests.swift */; };
+		EF8F3BF81E517B6F00DC24DB /* GoodocKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F3BF71E517B6F00DC24DB /* GoodocKitUITests.swift */; };
+		EF8F3C0A1E517D1E00DC24DB /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F3C091E517D1E00DC24DB /* String+Extension.swift */; };
+		EF8F3C0C1E517D6A00DC24DB /* CommonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F3C0B1E517D6A00DC24DB /* CommonViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF8F3BE91E517B6F00DC24DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF8F3BCC1E517B6F00DC24DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF8F3BD31E517B6F00DC24DB;
+			remoteInfo = GoodocKit;
+		};
+		EF8F3BF41E517B6F00DC24DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF8F3BCC1E517B6F00DC24DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF8F3BD31E517B6F00DC24DB;
+			remoteInfo = GoodocKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF8F3BD41E517B6F00DC24DB /* GoodocKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodocKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8F3BD71E517B6F00DC24DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF8F3BD91E517B6F00DC24DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF8F3BDC1E517B6F00DC24DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF8F3BDE1E517B6F00DC24DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF8F3BE11E517B6F00DC24DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF8F3BE31E517B6F00DC24DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8F3BE81E517B6F00DC24DB /* GoodocKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodocKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8F3BEC1E517B6F00DC24DB /* GoodocKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodocKitTests.swift; sourceTree = "<group>"; };
+		EF8F3BEE1E517B6F00DC24DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8F3BF31E517B6F00DC24DB /* GoodocKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodocKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8F3BF71E517B6F00DC24DB /* GoodocKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodocKitUITests.swift; sourceTree = "<group>"; };
+		EF8F3BF91E517B6F00DC24DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8F3C091E517D1E00DC24DB /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		EF8F3C0B1E517D6A00DC24DB /* CommonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF8F3BD11E517B6F00DC24DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8F3BE51E517B6F00DC24DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8F3BF01E517B6F00DC24DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF8F3BCB1E517B6F00DC24DB = {
+			isa = PBXGroup;
+			children = (
+				EF8F3C061E517C5D00DC24DB /* Common */,
+				EF8F3C081E517C8300DC24DB /* Extensions */,
+				EF8F3BD61E517B6F00DC24DB /* GoodocKit */,
+				EF8F3BEB1E517B6F00DC24DB /* GoodocKitTests */,
+				EF8F3BF61E517B6F00DC24DB /* GoodocKitUITests */,
+				EF8F3BD51E517B6F00DC24DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF8F3BD51E517B6F00DC24DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F3BD41E517B6F00DC24DB /* GoodocKit.app */,
+				EF8F3BE81E517B6F00DC24DB /* GoodocKitTests.xctest */,
+				EF8F3BF31E517B6F00DC24DB /* GoodocKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF8F3BD61E517B6F00DC24DB /* GoodocKit */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F3BD71E517B6F00DC24DB /* AppDelegate.swift */,
+				EF8F3BD91E517B6F00DC24DB /* ViewController.swift */,
+				EF8F3BDE1E517B6F00DC24DB /* Assets.xcassets */,
+				EF8F3BDB1E517B6F00DC24DB /* Main.storyboard */,
+				EF8F3BE01E517B6F00DC24DB /* LaunchScreen.storyboard */,
+				EF8F3BE31E517B6F00DC24DB /* Info.plist */,
+			);
+			path = GoodocKit;
+			sourceTree = "<group>";
+		};
+		EF8F3BEB1E517B6F00DC24DB /* GoodocKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F3BEC1E517B6F00DC24DB /* GoodocKitTests.swift */,
+				EF8F3BEE1E517B6F00DC24DB /* Info.plist */,
+			);
+			path = GoodocKitTests;
+			sourceTree = "<group>";
+		};
+		EF8F3BF61E517B6F00DC24DB /* GoodocKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F3BF71E517B6F00DC24DB /* GoodocKitUITests.swift */,
+				EF8F3BF91E517B6F00DC24DB /* Info.plist */,
+			);
+			path = GoodocKitUITests;
+			sourceTree = "<group>";
+		};
+		EF8F3C061E517C5D00DC24DB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F3C0B1E517D6A00DC24DB /* CommonViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EF8F3C081E517C8300DC24DB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F3C091E517D1E00DC24DB /* String+Extension.swift */,
+			);
+			name = Extensions;
+			path = Common/Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF8F3BD31E517B6F00DC24DB /* GoodocKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8F3BFC1E517B6F00DC24DB /* Build configuration list for PBXNativeTarget "GoodocKit" */;
+			buildPhases = (
+				EF8F3BD01E517B6F00DC24DB /* Sources */,
+				EF8F3BD11E517B6F00DC24DB /* Frameworks */,
+				EF8F3BD21E517B6F00DC24DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodocKit;
+			productName = GoodocKit;
+			productReference = EF8F3BD41E517B6F00DC24DB /* GoodocKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF8F3BE71E517B6F00DC24DB /* GoodocKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8F3BFF1E517B6F00DC24DB /* Build configuration list for PBXNativeTarget "GoodocKitTests" */;
+			buildPhases = (
+				EF8F3BE41E517B6F00DC24DB /* Sources */,
+				EF8F3BE51E517B6F00DC24DB /* Frameworks */,
+				EF8F3BE61E517B6F00DC24DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF8F3BEA1E517B6F00DC24DB /* PBXTargetDependency */,
+			);
+			name = GoodocKitTests;
+			productName = GoodocKitTests;
+			productReference = EF8F3BE81E517B6F00DC24DB /* GoodocKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF8F3BF21E517B6F00DC24DB /* GoodocKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8F3C021E517B6F00DC24DB /* Build configuration list for PBXNativeTarget "GoodocKitUITests" */;
+			buildPhases = (
+				EF8F3BEF1E517B6F00DC24DB /* Sources */,
+				EF8F3BF01E517B6F00DC24DB /* Frameworks */,
+				EF8F3BF11E517B6F00DC24DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF8F3BF51E517B6F00DC24DB /* PBXTargetDependency */,
+			);
+			name = GoodocKitUITests;
+			productName = GoodocKitUITests;
+			productReference = EF8F3BF31E517B6F00DC24DB /* GoodocKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF8F3BCC1E517B6F00DC24DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Goodoc;
+				TargetAttributes = {
+					EF8F3BD31E517B6F00DC24DB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SCHCN3R38K;
+						ProvisioningStyle = Automatic;
+					};
+					EF8F3BE71E517B6F00DC24DB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SCHCN3R38K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF8F3BD31E517B6F00DC24DB;
+					};
+					EF8F3BF21E517B6F00DC24DB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SCHCN3R38K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF8F3BD31E517B6F00DC24DB;
+					};
+				};
+			};
+			buildConfigurationList = EF8F3BCF1E517B6F00DC24DB /* Build configuration list for PBXProject "GoodocKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF8F3BCB1E517B6F00DC24DB;
+			productRefGroup = EF8F3BD51E517B6F00DC24DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF8F3BD31E517B6F00DC24DB /* GoodocKit */,
+				EF8F3BE71E517B6F00DC24DB /* GoodocKitTests */,
+				EF8F3BF21E517B6F00DC24DB /* GoodocKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF8F3BD21E517B6F00DC24DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8F3BE21E517B6F00DC24DB /* LaunchScreen.storyboard in Resources */,
+				EF8F3BDF1E517B6F00DC24DB /* Assets.xcassets in Resources */,
+				EF8F3BDD1E517B6F00DC24DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8F3BE61E517B6F00DC24DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8F3BF11E517B6F00DC24DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF8F3BD01E517B6F00DC24DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8F3BDA1E517B6F00DC24DB /* ViewController.swift in Sources */,
+				EF8F3C0C1E517D6A00DC24DB /* CommonViewController.swift in Sources */,
+				EF8F3C0A1E517D1E00DC24DB /* String+Extension.swift in Sources */,
+				EF8F3BD81E517B6F00DC24DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8F3BE41E517B6F00DC24DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8F3BED1E517B6F00DC24DB /* GoodocKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8F3BEF1E517B6F00DC24DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8F3BF81E517B6F00DC24DB /* GoodocKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF8F3BEA1E517B6F00DC24DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF8F3BD31E517B6F00DC24DB /* GoodocKit */;
+			targetProxy = EF8F3BE91E517B6F00DC24DB /* PBXContainerItemProxy */;
+		};
+		EF8F3BF51E517B6F00DC24DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF8F3BD31E517B6F00DC24DB /* GoodocKit */;
+			targetProxy = EF8F3BF41E517B6F00DC24DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF8F3BDB1E517B6F00DC24DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8F3BDC1E517B6F00DC24DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF8F3BE01E517B6F00DC24DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8F3BE11E517B6F00DC24DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF8F3BFA1E517B6F00DC24DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF8F3BFB1E517B6F00DC24DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF8F3BFD1E517B6F00DC24DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SCHCN3R38K;
+				INFOPLIST_FILE = GoodocKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goodoc.co.kr.GoodocKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF8F3BFE1E517B6F00DC24DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SCHCN3R38K;
+				INFOPLIST_FILE = GoodocKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goodoc.co.kr.GoodocKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EF8F3C001E517B6F00DC24DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SCHCN3R38K;
+				INFOPLIST_FILE = GoodocKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goodoc.co.kr.GoodocKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodocKit.app/GoodocKit";
+			};
+			name = Debug;
+		};
+		EF8F3C011E517B6F00DC24DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SCHCN3R38K;
+				INFOPLIST_FILE = GoodocKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goodoc.co.kr.GoodocKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodocKit.app/GoodocKit";
+			};
+			name = Release;
+		};
+		EF8F3C031E517B6F00DC24DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SCHCN3R38K;
+				INFOPLIST_FILE = GoodocKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goodoc.co.kr.GoodocKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoodocKit;
+			};
+			name = Debug;
+		};
+		EF8F3C041E517B6F00DC24DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SCHCN3R38K;
+				INFOPLIST_FILE = GoodocKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goodoc.co.kr.GoodocKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoodocKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF8F3BCF1E517B6F00DC24DB /* Build configuration list for PBXProject "GoodocKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8F3BFA1E517B6F00DC24DB /* Debug */,
+				EF8F3BFB1E517B6F00DC24DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8F3BFC1E517B6F00DC24DB /* Build configuration list for PBXNativeTarget "GoodocKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8F3BFD1E517B6F00DC24DB /* Debug */,
+				EF8F3BFE1E517B6F00DC24DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8F3BFF1E517B6F00DC24DB /* Build configuration list for PBXNativeTarget "GoodocKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8F3C001E517B6F00DC24DB /* Debug */,
+				EF8F3C011E517B6F00DC24DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8F3C021E517B6F00DC24DB /* Build configuration list for PBXNativeTarget "GoodocKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8F3C031E517B6F00DC24DB /* Debug */,
+				EF8F3C041E517B6F00DC24DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF8F3BCC1E517B6F00DC24DB /* Project object */;
+}
