@@ -14,8 +14,8 @@
 		EF8F3BE21E517B6F00DC24DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8F3BE01E517B6F00DC24DB /* LaunchScreen.storyboard */; };
 		EF8F3BED1E517B6F00DC24DB /* GoodocKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F3BEC1E517B6F00DC24DB /* GoodocKitTests.swift */; };
 		EF8F3BF81E517B6F00DC24DB /* GoodocKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F3BF71E517B6F00DC24DB /* GoodocKitUITests.swift */; };
-		EF8F3C0A1E517D1E00DC24DB /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F3C091E517D1E00DC24DB /* String+Extension.swift */; };
 		EF8F3C0C1E517D6A00DC24DB /* CommonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F3C0B1E517D6A00DC24DB /* CommonViewController.swift */; };
+		EFC6EDCC1E5A7E3E0020E982 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6EDCB1E5A7E3E0020E982 /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		EF8F3BF31E517B6F00DC24DB /* GoodocKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodocKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8F3BF71E517B6F00DC24DB /* GoodocKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodocKitUITests.swift; sourceTree = "<group>"; };
 		EF8F3BF91E517B6F00DC24DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF8F3C091E517D1E00DC24DB /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		EF8F3C0B1E517D6A00DC24DB /* CommonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonViewController.swift; sourceTree = "<group>"; };
+		EFC6EDCB1E5A7E3E0020E982 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				EF8F3C061E517C5D00DC24DB /* Common */,
-				EF8F3C081E517C8300DC24DB /* Extensions */,
+				EFC6EDCA1E5A7E3E0020E982 /* Extensions */,
 				EF8F3BD61E517B6F00DC24DB /* GoodocKit */,
 				EF8F3BEB1E517B6F00DC24DB /* GoodocKitTests */,
 				EF8F3BF61E517B6F00DC24DB /* GoodocKitUITests */,
@@ -139,13 +139,12 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
-		EF8F3C081E517C8300DC24DB /* Extensions */ = {
+		EFC6EDCA1E5A7E3E0020E982 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				EF8F3C091E517D1E00DC24DB /* String+Extension.swift */,
+				EFC6EDCB1E5A7E3E0020E982 /* String+Extension.swift */,
 			);
-			name = Extensions;
-			path = Common/Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,9 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC6EDCC1E5A7E3E0020E982 /* String+Extension.swift in Sources */,
 				EF8F3BDA1E517B6F00DC24DB /* ViewController.swift in Sources */,
 				EF8F3C0C1E517D6A00DC24DB /* CommonViewController.swift in Sources */,
-				EF8F3C0A1E517D1E00DC24DB /* String+Extension.swift in Sources */,
 				EF8F3BD81E517B6F00DC24DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
