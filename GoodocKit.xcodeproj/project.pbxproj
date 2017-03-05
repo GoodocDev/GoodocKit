@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D45B54E1E6BCF34004A53E6 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45B54D1E6BCF34004A53E6 /* Bundle+Extension.swift */; };
 		EF8F3BD81E517B6F00DC24DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F3BD71E517B6F00DC24DB /* AppDelegate.swift */; };
 		EF8F3BDA1E517B6F00DC24DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F3BD91E517B6F00DC24DB /* ViewController.swift */; };
 		EF8F3BDD1E517B6F00DC24DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8F3BDB1E517B6F00DC24DB /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D45B54D1E6BCF34004A53E6 /* Bundle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 		EF8F3BD41E517B6F00DC24DB /* GoodocKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodocKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8F3BD71E517B6F00DC24DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF8F3BD91E517B6F00DC24DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			children = (
 				EFC6EDCB1E5A7E3E0020E982 /* String+Extension.swift */,
 				EFC6EDCD1E5A83D80020E982 /* UIColor+Extension.swift */,
+				3D45B54D1E6BCF34004A53E6 /* Bundle+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				EF8F3BDA1E517B6F00DC24DB /* ViewController.swift in Sources */,
 				EF8F3C0C1E517D6A00DC24DB /* CommonViewController.swift in Sources */,
 				EF8F3BD81E517B6F00DC24DB /* AppDelegate.swift in Sources */,
+				3D45B54E1E6BCF34004A53E6 /* Bundle+Extension.swift in Sources */,
 				EFC6EDCE1E5A83D80020E982 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
